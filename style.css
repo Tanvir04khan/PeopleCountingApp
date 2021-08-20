@@ -1,0 +1,37 @@
+body{
+    max-width: 800px;
+    margin: auto;
+    background: radial-gradient(#fff, #aeff);
+}
+h1{
+    text-transform: uppercase;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    text-transform: capitalize;
+}
+button{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+}
+#increment-btn{
+    background: darkred;   
+}
+#increment-btn:hover{
+    background: red;
+    border-radius: 10px;
+}
+#save-btn{
+    background: darkgreen;
+}
+#save-btn:hover{
+    background: lightgreen;
+    border-radius: 10px;
+}
+
+
